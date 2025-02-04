@@ -7,7 +7,6 @@ from phi.tools.duckduckgo import DuckDuckGo
 import os
 from dotenv import load_dotenv
 load_dotenv()
-#openai.api_key=os.getenv("OPENAI_API_KEY")
 
 ## web search agent
 web_search_agent=Agent(
